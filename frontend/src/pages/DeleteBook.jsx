@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSnackbar } from "notistack";
 
-const DeleteBook = ({ book }) => {
+const DeleteBook = ({}) => {
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
