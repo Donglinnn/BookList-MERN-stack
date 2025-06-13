@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import BookSingleCard from "./BookSingleCard";
 
 const BooksCard = ({ books }) => {

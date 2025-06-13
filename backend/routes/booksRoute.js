@@ -24,7 +24,7 @@ router.post("/", async (req, res) => {
     return res.status(201).send(book);
   } catch (e) {
     console.log(e.message);
-    res.status(500).send({ message: err.message });
+    res.status(500).send({ message: e.message });
   }
 });
 
